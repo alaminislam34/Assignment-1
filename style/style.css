@@ -156,3 +156,29 @@ nav button{
     display: flex;
     margin-top: 50px;
 }
+
+/* footer styles */
+.footer1{
+    /*; */
+    background: url(../assets/handshake.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.7));
+    background-position: center;
+    background-size: cover;
+    margin: 50px 150px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.footer1 p{
+    color: white;
+}
+.footer1 input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.footer1 .cmt{
+    text-align: left;
+    padding-right: 130px;
+}
