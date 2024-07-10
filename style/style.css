@@ -116,3 +116,27 @@ nav button{
 .banner3-video{
     max-width: 1320px;   
 }
+
+/* banner4 styles */
+.banner4{
+    text-align: center;
+    margin: 50px 150px;
+}
+.card-list{
+    text-align: left;
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+.card-list .pad-common{
+    padding: 30px;
+    background-color: #f5f9ff;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.banner4 .card1{
+    background-color: #fdefec;
+}
+.banner4 .card3{
+    background-color: #effaef;
+}
