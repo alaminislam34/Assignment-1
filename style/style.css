@@ -5,12 +5,17 @@
 }
 /* Assignment-1 styles */
 .primary-color{
-    color: #0D1321;
+    color: #3b3c3f;
 }
 .btn-primary{
     padding: 12px 20px;
 }
-
+.cmn-bdr{
+    border: 0.4px solid #dddada;
+    padding: 30px;
+    gap: 50px;
+    border-radius: 16px;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -139,4 +144,15 @@ nav button{
 }
 .banner4 .card3{
     background-color: #effaef;
+}
+
+/* Next learn banner styles */
+
+.next-learn{
+    margin-top: 130px;
+}
+.next-learn .common{
+    text-align: left;
+    display: flex;
+    margin-top: 50px;
 }
