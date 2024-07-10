@@ -13,7 +13,7 @@
     <header>
         <nav>
             <h1>Awlad.H</h1>
-            <button class="btn-primary">Download Resume</button>
+            <button type="button">Download Resume</button>
         </nav>
     </header>
     <main>
@@ -21,7 +21,7 @@
             <img src="./assets/Group.png" alt="">
             <h1>"In the near future, I hope to become a Developer."</h1>
             <p>I want to be a web developer. I will try my best for this. I will always keep my focus on achieving this goal. I will not back down under any circumstances. Inshallah I will be successful.</p>
-            <button>Contact with me</button>
+            <button onclick="goToFooter()">Contact with me</button>
         </section>
         <section class="banner2">
             <div class="banner2-title">
@@ -132,12 +132,29 @@
         </section>
     </main>
     <footer>
-        <div class="footer1">
+        <div class="footer1" id="contact-footer">
             <h1>I Need Support</h1>
             <p class="primary-color">If you have any suggestions Please let me know. Because I'm new. A lot of things can go wrong in my coding.</p>
             <input class="cmt" type="text" placeholder="Suggest me any feedback for me">
             <input type="submit" value="Submit">
         </div>
+        <div class="footer2">
+            <div>
+                <h3>An Open Commitment by Awlad Hossain</h3>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/ar.alamin34"><img src="./assets/facebook.png" alt=""></a>
+                <a href="https://github.com/alaminislam34/"><img src="./assets/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/md-al-amin-islam-b2100b261/"><img src="./assets/linkedin-icon 1.png" alt=""></a>
+            </div>
+        </div>
+
+        <script>
+            function goToFooter() {
+                document.getElementById('contact-footer').scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+
     </footer>
 </body>
 </html>

@@ -21,17 +21,26 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
+    padding: 0px 0px;
+    height: 60px;
+    align-items: center;
 }
 nav h1{
     font-size: 38px;
     font-weight: bold;
 }
 nav button{
+    align-items: center;
+    height:60px;
+    text-align: center;
+    margin: 30px auto;
     margin: 0px;
     font-size: 20px;
     font-weight: 600px;
     letter-spacing: 2px;
     color: #0d1321;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 /* banner1 styles */
@@ -167,11 +176,13 @@ nav button{
     margin: 50px 150px;
     border-radius: 16px;
     text-align: center;
-    padding: 50px;
+    padding: 64px;
     color: white;
 }
 .footer1 p{
     color: #dddada;
+    margin-top: 40px auto;
+    padding: 10px 160px;
 }
 .footer1 input{
     padding: 10px 20px;
@@ -182,4 +193,12 @@ nav button{
     text-align: left;
     padding-right: 130px;
     color: #dddada;
+}
+/* footer2 styles */
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 100px 150px;
 }
