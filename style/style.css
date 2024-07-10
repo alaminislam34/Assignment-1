@@ -71,7 +71,9 @@ nav button{
 .container{
     padding-top: 48px;
 }
-
+.container button{
+    text-decoration: none;
+}
 .banner2{
     margin: 74px 150px;
 }
@@ -142,6 +144,11 @@ nav button{
     gap: 30px;
     margin-top: 80px;
 }
+.card-list a{
+    text-decoration: none;
+    color: #0d1321;
+    text-decoration: underline;
+}
 .card-list .pad-common{
     padding: 30px;
     background-color: #f5f9ff;
@@ -159,6 +166,11 @@ nav button{
 
 .next-learn{
     margin-top: 130px;
+}
+.next-learn a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #0d1321;
 }
 .next-learn .common{
     text-align: left;
