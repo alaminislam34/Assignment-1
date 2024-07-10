@@ -160,8 +160,8 @@ nav button{
 /* footer styles */
 .footer1{
     /*; */
-    background: url(../assets/handshake.jpg);
-    background: linear-gradient(to top, rgba(0,0,0,0.7));
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../assets/handshake.jpg);
+    /* background: ; */
     background-position: center;
     background-size: cover;
     margin: 50px 150px;
@@ -171,14 +171,15 @@ nav button{
     color: white;
 }
 .footer1 p{
-    color: white;
+    color: #dddada;
 }
 .footer1 input{
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 8px;
     border: none;
 }
 .footer1 .cmt{
     text-align: left;
     padding-right: 130px;
+    color: #dddada;
 }
