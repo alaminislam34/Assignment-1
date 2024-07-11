@@ -6,6 +6,7 @@
 /* Assignment-1 styles */
 .primary-color{
     color: #3b3c3f;
+    padding: 0 20px;
 }
 .btn-primary{
     padding: 12px 20px;
@@ -20,10 +21,9 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
-    padding: 0px 0px;
-    height: 60px;
+    height: auto;
     align-items: center;
+    padding: 0 20px;
 }
 nav h1{
     font-size: 38px;
@@ -31,12 +31,8 @@ nav h1{
 }
 nav button{
     align-items: center;
-    height:60px;
     text-align: center;
-    margin: 30px auto;
-    margin: 0px;
     font-size: 20px;
-    font-weight: 600px;
     letter-spacing: 2px;
     color: #0d1321;
     padding: 15px;
@@ -48,7 +44,7 @@ nav button{
 .banner1{
     background: url(../assets/Hero-bg.png);
     text-align: center;
-    padding: 26px 225px 45px 225px;
+    padding: 0 20px;
 }
 
 .banner1 h1{
@@ -58,6 +54,7 @@ nav button{
 }
 .banner1 p{
     line-height: 28px;
+    /* padding: 30px; */
 }
 .banner1 button{
     padding: 15px;
@@ -69,40 +66,42 @@ nav button{
 
 /* banner2 styles */
 .container{
-    padding-top: 48px;
+    max-width: 100%;
+    height: auto;
 }
 .container button{
     text-decoration: none;
 }
-.banner2{
-    margin: 74px 150px;
-}
+
 .banner2 h1{
     font-weight: bolder;
 }
-.banner2 .banner2-title{
+.banner2-title{
     text-align: center;
-    padding: 80px 97px;
+    padding: 0 20px;
 }
 .banner2 .content1{
-    margin-top: 48px;
-    gap: 120px;
+    /* margin-top: 48px; */
+    /* gap: 120px; */
     text-align: left;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .banner2 .content2{
     text-align: left;
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
     justify-content: space-between;
+    align-items: center;
 }
 .banner2 .content3{
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
     text-align: left;
     justify-content: space-between;
+    align-items: center;
 }
 .content h4 p button{
     margin-bottom: 10px;
@@ -112,10 +111,13 @@ nav button{
 
 .banner3{
     text-align: center;
-    margin: 48px 150px;
     background-color: #f5f9ff;
     border-radius: 16px;
 }
+.banner3-title{
+    padding: 0 20px;
+}
+
 .banner3-title h1{
     font-size: 32px;
     font-weight: bold;
@@ -124,25 +126,30 @@ nav button{
     line-height: 26px;
 }
 .banner3 .banner3-video iframe{
-    margin: 40px;
-    height: 550px;
-    width: 900px;
+    max-width: 100%;
+    background-size: cover;
+    max-height: auto;
     border-radius: 16px;
 }
 .banner3-video{
-    max-width: 1320px;   
+    padding: 20px; 
 }
 
 /* banner4 styles */
 .banner4{
     text-align: center;
-    margin: 50px 150px;
+    max-width: 100%;
+    height: auto;
 }
 .card-list{
+    max-width: 100%;
     text-align: left;
+    align-items: center;
     display: flex;
-    gap: 30px;
-    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 20px;
 }
 .card-list a{
     text-decoration: none;
@@ -150,51 +157,59 @@ nav button{
     text-decoration: underline;
 }
 .card-list .pad-common{
-    padding: 30px;
+    max-width: 300px;
     background-color: #f5f9ff;
     border-radius: 16px;
     text-decoration: none;
 }
-.banner4 .card1{
+.card-list .card1{
     background-color: #fdefec;
+    padding: 20px;
 }
-.banner4 .card3{
+.card-list .card2{
+    padding: 20px;
+}
+.card-list .card3{
     background-color: #effaef;
+    padding: 20px;
 }
-
-/* Next learn banner styles */
-
 .next-learn{
-    margin-top: 130px;
+    padding: 0 20px;
 }
 .next-learn a{
     text-decoration: none;
     text-decoration: underline;
     color: #0d1321;
 }
+.next-learn p{
+    margin: 0 20px;
+}
 .next-learn .common{
     text-align: left;
+    /* align-items: center; */
     display: flex;
     margin-top: 50px;
 }
 
+
 /* footer styles */
+.footer-list{
+    padding: 20px 20px;
+}
+
 .footer1{
-    /*; */
     background: linear-gradient(to bottom,rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../assets/handshake.jpg);
-    /* background: ; */
     background-position: center;
     background-size: cover;
-    margin: 50px 150px;
     border-radius: 16px;
     text-align: center;
-    padding: 64px;
+    padding: 30px 20px;
     color: white;
+    height: 200px;
+    align-items: center;
 }
 .footer1 p{
     color: #dddada;
-    margin-top: 40px auto;
-    padding: 10px 160px;
 }
 .footer1 input{
     padding: 10px 20px;
@@ -203,7 +218,7 @@ nav button{
 }
 .footer1 .cmt{
     text-align: left;
-    padding-right: 130px;
+    /* padding-right: 130px; */
     color: #dddada;
 }
 /* footer2 styles */
@@ -212,5 +227,7 @@ nav button{
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    margin: 100px 150px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
 }
